@@ -29,6 +29,7 @@ python manage.py runserver
 And then accesssing the *localhost:8000/reviews*.
 
 We should arrive at **Andi's Book** website homepage which displays recent reviews made by other users.
+![Home](https://github.com/andkwv/book_review_django/blob/master/andisbook/images/home.png)
 
 
 On the nav-bar we can see a few options :
@@ -37,16 +38,49 @@ On the nav-bar we can see a few options :
 - **Register**: This bar allows new users to register
 
 On the **Book List** webpage we can see a list of books. Each book has an author and an average number of rating that it has.
-By clicking one of the Books, we will arrive at the book detail webpage which shows the details of the book as well as the reviews made by previous users
+By clicking one of the Books, we will arrive at the book detail webpage which shows the details of the book as well as the reviews made by other users.
+
+![Book_List](https://github.com/andkwv/book_review_django/blob/master/andisbook/images/book_list.png)
+
+![Book_Detail](https://github.com/andkwv/book_review_django/blob/master/andisbook/images/book_detail.png)
 
 
-## Deployment
 
-Add additional notes about how to deploy this on a live system
+At around the bottom of the page we can see there is a form that allows us to add a new review to the book. However, this action is disable for any user that is not logged in. It will instead redirect you to a login page.
+
+![Try_Review](https://github.com/andkwv/book_review_django/blob/master/andisbook/images/try_review.png)
+
+
+
+Therefore first, we can try to register through the register tab at the top right corner.
+
+![Register](https://github.com/andkwv/book_review_django/blob/master/andisbook/images/register.png)
+
+
+
+After being registered we can then try to login as a new user
+
+![Login](https://github.com/andkwv/book_review_django/blob/master/andisbook/images/login_jez.png)
+
+![user](https://github.com/andkwv/book_review_django/blob/master/andisbook/images/reviews_jez.png)
+
+
+
+Then we can navigate to the booklist to then add a review to the Book that we have read.
+
+![add_review](https://github.com/andkwv/book_review_django/blob/master/andisbook/images/add_review.png)
+
+
+
+We can see now that our review has been listed on the website along with the other reviews that others have made.
+
+![result](https://github.com/andkwv/book_review_django/blob/master/andisbook/images/success_review.png)
+
 
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Thankyou to:
+* Jose A Dianes https://www.codementor.io/jadianes/get-started-with-django-building-recommendation-review-app-du107yb1a
+* Django Documentation team
+ 
