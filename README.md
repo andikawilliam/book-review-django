@@ -1,15 +1,15 @@
-# Book_Review_Django
+# Book Review Website using Django
 Making a book review website using Django for a class assignment
-This file serves as an explanation for the website
+This repository serves as an explanation for the website
 
 ### Instructions and Requirements
-In this project, you’ll build a book review website. Users will be able to register for your website and then log in using their username and password. Once they log in, they will be able to search for books, leave reviews for individual books, and see the reviews made by other people.
+In this project, I built a book review website. Users will be able to register on the website and then log in using their username and password. Once they log in, they will be able to search for books, leave reviews for individual books, and see the reviews made by other people.
 
 ***
 
 ## Getting Started
 
-In making this website, no special tools/IDE such as Pycharm or Anaconda were used. Instead every configuration was installed 'raw' through the command line (CMD) for both python and django
+In making this website, no special tools/IDE such as Pycharm or Anaconda were used. Instead, I try to install dependencies through the command line (CMD) for both python and django
 
 The specific tools that were used were: <br>
 Text-Editor : Notepad++ <br>
